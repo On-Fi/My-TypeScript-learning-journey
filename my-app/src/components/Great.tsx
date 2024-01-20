@@ -1,5 +1,6 @@
-type GreatProps = { name: string 
-messageCount: number
+type GreatProps = { 
+name: string 
+messageCount?: number
 isLoggedIn: boolean
 };
 
