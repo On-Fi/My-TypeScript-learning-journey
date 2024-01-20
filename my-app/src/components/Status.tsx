@@ -13,7 +13,7 @@ if (props.status === 'loading') {
 }    
     return(
         <div>
-            <h2>Status - {message}</h2>
+            <h2>Status = {message}</h2>
         </div>
     )
 }
