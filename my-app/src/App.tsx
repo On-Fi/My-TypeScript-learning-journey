@@ -27,7 +27,7 @@ function App() {
       <Oscar> 
         <Heading>And the Oscar goes to Tom Hardy!</Heading>
       </Oscar>
-      <Great name ='Onur' isLoggedIn={false} />
+      <Great name ='Onur' messageCount={69} isLoggedIn={true} />
       <Person name= {personName} />
       <PersonList names= {nameList}/>
     </div>
