@@ -20,10 +20,10 @@ function App() {
 
   return (
     <div className="App">
-      <Heading>Placeholder text</Heading>
+      <Heading>Welcome my friend! </Heading>
+      <Status status='error' />
       <Status status='loading' />
       <Status status='success' />
-      <Status status='error' />
       <Oscar> 
         <Heading>And the Oscar goes to Tom Hardy!</Heading>
       </Oscar>

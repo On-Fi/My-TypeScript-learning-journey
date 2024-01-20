@@ -11,9 +11,5 @@ if (props.status === 'loading') {
 } else if (props.status === 'error') {
     message = 'Error fetching data'
 }    
-    return(
-        <div>
-            <h2>Status = {message}</h2>
-        </div>
-    )
+    return<h2>Status = {message}</h2>
 }
