@@ -2,6 +2,9 @@ import './App.css';
 import { Great } from './components/Great';
 import { Person } from './components/Person';
 import { PersonList } from './components/PersonList';
+import { Status } from './components/Status';
+import { Heading } from './components/Heading';
+import { Oscar } from './components/Oscar';
 
 function App() {
   const personName = {
@@ -17,7 +20,14 @@ function App() {
 
   return (
     <div className="App">
-      <Great name ='Onur' messageCount= {27} isLoggedIn={false} />
+      <Heading>Placeholder text</Heading>
+      <Status status='loading' />
+      <Status status='success' />
+      <Status status='error' />
+      <Oscar> 
+        <Heading>And the Oscar goes to Tom Hardy!</Heading>
+      </Oscar>
+      <Great name ='Onur' isLoggedIn={false} />
       <Person name= {personName} />
       <PersonList names= {nameList}/>
     </div>
