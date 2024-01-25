@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="App">
       <Heading>Welcome my friend! </Heading>
-      <Button handleClick={() => console.log('Button clicked!')} />
+      <Button handleClick={(event, id) => console.log('Button clicked!', event, id)} />
       <Status status='error' />
       <Status status='loading' />
       <Status status='success' />
