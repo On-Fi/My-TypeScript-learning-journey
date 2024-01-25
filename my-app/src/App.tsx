@@ -5,6 +5,7 @@ import { PersonList } from './components/PersonList';
 import { Status } from './components/Status';
 import { Heading } from './components/Heading';
 import { Oscar } from './components/Oscar';
+import { Button } from './components/Button';
 
 function App() {
   const personName = {
@@ -21,6 +22,7 @@ function App() {
   return (
     <div className="App">
       <Heading>Welcome my friend! </Heading>
+      <Button handleClick={() => console.log('Button clicked!')} />
       <Status status='error' />
       <Status status='loading' />
       <Status status='success' />
