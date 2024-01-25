@@ -26,7 +26,7 @@ function App() {
       <Heading>Welcome my friend! </Heading>
       <Button handleClick={(event, id) => console.log('Button clicked!', event, id)} />
       <Input value='' handleChange={event => console.log(event)} />
-      <Container styles={{ border: '1px solid black', padding: '1rem' }} />
+      <Container styles={{ border: '1px solid darkred', padding: '1rem' }} />
       <Status status='error' />
       <Status status='loading' />
       <Status status='success' />
