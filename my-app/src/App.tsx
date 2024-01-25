@@ -7,6 +7,7 @@ import { Heading } from './components/Heading';
 import { Oscar } from './components/Oscar';
 import { Button } from './components/Button';
 import { Input } from './components/Input';
+import { Container } from './components/Container';
 
 function App() {
   const personName = {
@@ -25,6 +26,7 @@ function App() {
       <Heading>Welcome my friend! </Heading>
       <Button handleClick={(event, id) => console.log('Button clicked!', event, id)} />
       <Input value='' handleChange={event => console.log(event)} />
+      <Container styles={{ border: '1px solid darkred', padding: '1rem' }} />
       <Status status='error' />
       <Status status='loading' />
       <Status status='success' />
