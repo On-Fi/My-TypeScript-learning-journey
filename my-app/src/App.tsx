@@ -10,6 +10,7 @@ import { Input } from './components/Input';
 import { Container } from './components/Container';
 import { LoggedIn } from './components/state/LoggedIn';
 import { User } from './components/state/User';
+import { Counter } from './components/state/Counter';
 
 function App() {
   const personName = {
@@ -26,6 +27,7 @@ function App() {
   return (
     <div className="App">
       <Heading>Welcome my friend! </Heading>
+      <Counter />
       <User />
       <LoggedIn />
       <Button handleClick={(event, id) => console.log('Button clicked!', event, id)} />
